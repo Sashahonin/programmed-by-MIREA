@@ -3,13 +3,18 @@
 
 #include <iostream>
 #include <math.h>
+#include <conio.h>
 using namespace std;
 int main()
 {	
-	int h,R,r
-	cout << ("h");
-	cout << ("R");
-	cout << ("r");
+	int h, R, r;
+	cout << "h"<< endl;
+	cin >> h;
+	cout << "R"<< endl;
+	cin >> R;
+	cout << "r"<< endl;
+	cin >> r;
+	cout << pi << endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

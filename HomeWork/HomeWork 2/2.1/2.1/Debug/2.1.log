@@ -1,2 +1,2 @@
 ﻿  2.1.cpp
-B:\programmed-by-MIREA\HomeWork\HomeWork 2\2.1\2.1\2.1.cpp(10,2): error C2146:  синтаксическая ошибка: отсутствие ";" перед идентификатором "cout"
+C:\programmed-by-MIREA\HomeWork\HomeWork 2\2.1\2.1\2.1.cpp(17,10): error C2065:  pi: необъявленный идентификатор
