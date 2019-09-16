@@ -6,3 +6,4 @@ string path = "text3.3.txt";
 int a;
 ifstream F;
 F.open(path);
+char masiv[8] = { 'f', 'а', ' t', 'е', 's', 's', 'a', '\0'};
