@@ -1,0 +1,8 @@
+Русский язык----setlocale(LC_ALL, "Russian");
+Ввод и чтение информации из файла:
+#include <fstream>
+#include <string>	
+string path = "text3.3.txt";
+int a;
+ifstream F;
+F.open(path);
