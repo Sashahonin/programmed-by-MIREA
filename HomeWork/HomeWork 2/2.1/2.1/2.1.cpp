@@ -3,13 +3,29 @@
 
 #include <iostream>
 #include <math.h>
+#include <conio.h>
+
 using namespace std;
 int main()
 {	
-	int h,R,r
-	cout << ("h");
-	cout << ("R");
-	cout << ("r");
+	const double PI = 3.141592653589793238463; 
+	signed short int h, R, r,L;
+	double v, s;
+	cout << "h"<< endl;
+	cin >> h;
+	cout << "R"<< endl;
+	cin >> R;
+	cout << "r"<< endl;
+	cin >> r;
+	
+	cout << "L" << endl;
+	cin >> L;
+	v = 0.33333 * PI * h*((R * R) +( R * r) + (r * r));
+	s = PI * (R * R + (R + r) * L + r * r);
+	cout << "V =  " << v << endl;
+	cout << "S =  " << s << endl;
+
+
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

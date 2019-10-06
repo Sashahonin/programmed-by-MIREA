@@ -1,0 +1,3 @@
+﻿  2.cpp
+C:\programmed-by-MIREA\HomeWork\Listok\2\2\2.cpp(9,12): warning C4244:  аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  2.vcxproj -> C:\programmed-by-MIREA\HomeWork\Listok\2\Debug\2.exe

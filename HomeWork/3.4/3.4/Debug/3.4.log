@@ -1,0 +1,5 @@
+﻿  3.4.cpp
+C:\programmed-by-MIREA\HomeWork\3.4\3.4\3.4.cpp(8,31): warning C4838:  преобразование из "int" в "char" требует сужающего преобразования
+C:\programmed-by-MIREA\HomeWork\3.4\3.4\3.4.cpp(8,62): warning C4305:  инициализация: усечение из "int" в "char"
+C:\programmed-by-MIREA\HomeWork\3.4\3.4\3.4.cpp(8,31): warning C4309:  инициализация: усечение константного значения
+  3.4.vcxproj -> C:\programmed-by-MIREA\HomeWork\3.4\Debug\3.4.exe
