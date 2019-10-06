@@ -28,16 +28,17 @@ int main()
 	int k = 0;
 	int z = 0;
 	int mas2[100];
-	int mas3[100];
+	int mas3[100];   
+
 	for (int i = 0; i < 100; i++)
 	{
 		
-		if (mas[i] % 2 == 0)
+		if (mas[i]% 10 % 2 == 0 $$ mas[i] % 10 % 2 == 0 && mas[i] % 10 % 2 == 0)
 		{
 			mas2[k] = mas[i];
 			k = k + 1;
 		}
-		else
+		if( (mas[i] % 10 % 2 != 0) $$( mas[i] % 10 % 2 != 0) && (mas[i] % 10 % 2 != 0))
 		{
 			mas3[z] = mas[i];
 			z = z + 1;
