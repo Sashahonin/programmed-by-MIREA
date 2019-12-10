@@ -1,0 +1,29 @@
+﻿#include <iostream>
+#include <fstream>
+
+using namespace std;
+
+int main()
+{
+	float mas[10];
+	float float0;
+	float summa;
+	ofstream fout;
+	ifstream fin;
+	cout << "enter : ";
+	fout.open("4.1.txt");
+	for (int i = 0; i < 10; i++)
+	{
+		cin >> float0;
+		fout << float0 << " ";
+	}
+	fout.close();
+	fin.open("4.1.txt");
+	summa = 0;
+	for (int i = 0; i < 10; i++)
+	{
+		fin >> mas[i];
+		summa += mas[i];
+	}
+	cout << summa;
+}
