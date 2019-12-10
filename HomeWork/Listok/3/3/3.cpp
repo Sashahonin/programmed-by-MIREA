@@ -40,7 +40,7 @@ int main()
 			{
 			case 1:
 				mas2[z] = mas[0][i] + mas[1][j];
-				masdop[z] = mas[0][i];
+				masdop[z] = mas[0][i]* 10 + p;
 				masdop2[z] = mas[1][j];
 				mas2[z] = mas2[z]*10 + z;
 				z = z + 1;
@@ -92,23 +92,24 @@ int main()
 	cout << endl;
 	for (int i = 1; i < n; ++i)
 	{
-		int d = abs(mas2[i] % 10);
+		 z = abs(mas2[i] % 10);
+		int d = abs(masdop[z] % 10);
 		switch (d)
 		{
 		case 1:
-			cout << masdop[d] << " + " << masdop2[d] << " = " << mas2[i]/ 10 << endl;
+			cout << masdop[z] << " + " << masdop2[z] << " = " << mas2[i]/ 10 << endl;
 			break;
 
 		case 2:
-			cout << masdop[d] << " - " << masdop2[d] << " = " << mas2[i] / 10 << endl;
+			cout << masdop[z] << " - " << masdop2[z] << " = " << mas2[i] / 10 << endl;
 			break;
 
 		case 3:
-			cout << masdop[d] << " / " << masdop2[d] << " = " << mas2[i] / 10 << endl;
+			cout << masdop[z] << " / " << masdop2[z] << " = " << mas2[i] / 10 << endl;
 			break;
 
 		case 4:
-			cout << masdop[d] << " * " << masdop2[d] << " = " << mas2[i] / 10 << endl;
+			cout << masdop[z] << " * " << masdop2[z] << " = " << mas2[i] / 10 << endl;
 			break;
 		}
 	}

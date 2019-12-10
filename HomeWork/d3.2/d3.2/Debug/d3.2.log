@@ -1,0 +1,4 @@
+﻿  d3.2.cpp
+C:\programmed-by-MIREA\HomeWork\d3.2\d3.2\d3.2.cpp(13,10): warning C4305:  =: усечение из "double" в "float"
+C:\programmed-by-MIREA\HomeWork\d3.2\d3.2\d3.2.cpp(15,12): warning C4305:  +=: усечение из "double" в "float"
+  d3.2.vcxproj -> C:\programmed-by-MIREA\HomeWork\d3.2\Debug\d3.2.exe
