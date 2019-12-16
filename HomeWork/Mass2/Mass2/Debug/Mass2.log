@@ -1,0 +1,4 @@
+﻿  Mass2.cpp
+C:\programmed-by-MIREA\HomeWork\Mass2\Mass2\Mass2.cpp(17,6): warning C4101:  In: неиспользованная локальная переменная
+C:\programmed-by-MIREA\HomeWork\Mass2\Mass2\Mass2.cpp(16,7): warning C4101:  flag: неиспользованная локальная переменная
+  Mass2.vcxproj -> C:\programmed-by-MIREA\HomeWork\Mass2\Debug\Mass2.exe
